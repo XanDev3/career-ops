@@ -101,3 +101,10 @@ package-lock.json
 
 # Planning (local scratchpad)
 plan/
+
+# Received offers/contracts, promise notes, prep reports (PII — never commit)
+data/offers/*
+!data/offers/.gitkeep
+
+# Obsidian vault config (local editor state)
+.obsidian/
